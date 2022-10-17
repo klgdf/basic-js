@@ -10,7 +10,7 @@ const chainMaker = {
     return this.arr.length
   },
   addLink(value = '') {
-    this.arr.push(`(${ +value })`)
+    this.arr.push(`( ${String(value)} )`)
     return this
   },
   removeLink(position) {
